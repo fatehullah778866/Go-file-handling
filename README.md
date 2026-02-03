@@ -31,4 +31,4 @@ With no overrides, the program will look for images under the source path above,
 
 - Supported extensions: `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, `.webp`.  
 - If a name collision occurs, the program appends `_1`, `_2`, etc., to keep both files.  
-- The destination root is refused during the walk so files already moved don’t get processed again.
+- The destination root is skipped during the walk so files already moved don't get processed again.
